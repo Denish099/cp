@@ -69,7 +69,7 @@ int query(int idx, int low, int high, int l, int r)
 
     if (high < l || low > r)
     {
-        return INT_MIN;
+        return -INF;
     }
 
     int mid = (low + high) / 2;
